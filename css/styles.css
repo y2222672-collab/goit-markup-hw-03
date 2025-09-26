@@ -298,7 +298,7 @@ margin-right: 30px;
 
 .footer-p {
   font-weight: 400;
-
+padding-top: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -317,5 +317,6 @@ margin-right: 30px;
 .footer-color {
 width: 1440px;
 height: 312px;
- display: flex;
+
+ padding-top: 100px;
 }
