@@ -117,7 +117,8 @@ p {
 
 .flex-item {
   margin-right: 30px;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation:hover {
@@ -213,6 +214,12 @@ p {
 
 /* -----------------Features ----------------*/
 
+.features-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -226,13 +233,22 @@ p {
   overflow: hidden;
 }
 
+.features-menu {
+display: flex;
+gap: 24px; 
+
+}
+
 .features-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
+
+
 
 .features-p {
   font-weight: 400;
@@ -245,6 +261,9 @@ p {
 /* Workes */
 .workes {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
 }
 
 .work-title {
@@ -255,10 +274,26 @@ p {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
+
+.workers-ul {
+  display: flex;
+  gap: 24px;
+
+}
+
+
 
 .work-li {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.name-box {
+padding-top: 32px;
+padding-bottom: 32px;
 }
 .name {
   font-weight: 500;
@@ -277,6 +312,33 @@ p {
 }
 
 /* ============Portfolio===== */
+
+.portfolio-section {
+ padding-top: 120px;
+ padding-bottom: 120px;
+ margin-bottom: 72px;
+}
+
+.portfolio-ul {
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px; 
+row-gap: 48px;
+}
+
+
+
+.portfolio-li {
+width: calc((100% - 48px) / 3);
+}
+
+.banking-box {
+padding: 32px 16px;
+border: 1px solid #e7e9fc; 
+border-top: none; 
+}
+
+
 .portfolio-banner {
   font-weight: 700;
   font-size: 36px;
@@ -293,6 +355,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-p {
