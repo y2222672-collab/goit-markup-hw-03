@@ -11,8 +11,10 @@ body {
   margin-left: 0;
   margin-right: 0;
   margin: 0 auto;
+  width: 1158px;
 }
-.img {
+
+img {
   display: block;
   max-width: 100%;
 }
@@ -33,6 +35,10 @@ a {
 button {
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
+}
+
+.header-class {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .link {
@@ -96,26 +102,22 @@ p {
   color: #2e2f42;
 }
 
-.navi-flex {
+.navi-menu {
   display: flex;
-  flex-direction:row;
-  gap: 76px;
-
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
 }
 
 .flex-list-header {
-  display:flex;
+  display: flex;
   column-gap: 40px;
-  /* flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-  /* gap: 50px;*/
-
+  gap: 40px;
 }
 
 .flex-item {
-margin-right: 30px;
-
+  margin-right: 30px;
+  padding: 24px 0;
 }
 
 .navigation:hover {
@@ -149,12 +151,15 @@ margin-right: 30px;
   text-transform: uppercase;
   color: #4d5ae5;
   display: flex;
+  display: inline-block;
+  margin-bottom: 16px;
+  margin-right: 76px;
 }
 
 .adress {
   font-style: normal;
   line-height: 1.5;
-  letter-spacing: 0.02em;;
+  letter-spacing: 0.02em;
 }
 
 .contact-info-mail {
@@ -172,6 +177,8 @@ margin-right: 30px;
 /* ----------------Hero --------------------------- */
 .hero-class {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -181,6 +188,7 @@ margin-right: 30px;
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
+  max-width: 496px; 
 }
 
 .button {
@@ -190,6 +198,11 @@ margin-right: 30px;
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  display: block; 
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px; 
 }
 .button:hover {
   background-color: #404bbf;
@@ -298,7 +311,7 @@ margin-right: 30px;
 
 .footer-p {
   font-weight: 400;
-padding-top: 16px;
+  padding-top: 16px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -315,8 +328,7 @@ padding-top: 16px;
   text-transform: uppercase;
 }
 .footer-color {
-width: 1440px;
-height: 312px;
-
- padding-top: 100px;
+  width: 1440px;
+  height: 312px;
+  padding: 100px 0;
 }
