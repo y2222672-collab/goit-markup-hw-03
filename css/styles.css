@@ -106,6 +106,7 @@ p {
   padding-bottom: 24px;
   flex-direction: row;
   align-items: flex-start;
+  gap: 40px;
 }
 
 .adress-list {
@@ -115,7 +116,7 @@ p {
 
 
 .flex-item {
-  margin-right: 30px;
+
   padding-bottom: 24px;
   padding-top: 24px;
 }
