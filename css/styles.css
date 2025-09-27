@@ -117,8 +117,7 @@ p {
 
 .flex-item {
   margin-right: 30px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+ padding: 24px 0 24px;
 }
 
 .navigation:hover {
@@ -301,6 +300,8 @@ padding-bottom: 32px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .position {
@@ -309,6 +310,9 @@ padding-bottom: 32px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
+
+
 }
 
 /* ============Portfolio===== */
@@ -347,6 +351,7 @@ border-top: none;
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .portfolio-title {
