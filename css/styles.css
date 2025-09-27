@@ -91,7 +91,6 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  padding: 24px 0;
 }
 /* =================================Navigation=========================== */
 .navigation {
@@ -101,6 +100,8 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navi-menu {
@@ -114,11 +115,14 @@ p {
   display: flex;
   column-gap: 40px;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .flex-item {
   margin-right: 30px;
-  padding: 24px 0 24px;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .navigation:hover {
@@ -153,7 +157,6 @@ p {
   color: #4d5ae5;
   display: flex;
   display: inline-block;
-  margin-bottom: 16px;
   margin-right: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -163,6 +166,8 @@ p {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .contact-info-mail {
