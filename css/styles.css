@@ -91,6 +91,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  padding: 24px 0;
 }
 /* =================================Navigation=========================== */
 .navigation {
@@ -117,7 +118,7 @@ p {
 
 .flex-item {
   margin-right: 30px;
- padding: 24px 0 24px;
+  padding: 24px 0 24px;
 }
 
 .navigation:hover {
@@ -190,7 +191,7 @@ p {
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
-  max-width: 496px; 
+  max-width: 496px;
 }
 
 .button {
@@ -200,11 +201,11 @@ p {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
-  display: block; 
+  display: block;
   min-width: 169px;
   height: 56px;
   border: none;
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 .button:hover {
   background-color: #404bbf;
@@ -221,10 +222,8 @@ p {
 }
 
 .features-lishka {
-width: calc((100% - 72px) / 4);
-
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
-
 
 .visually-hidden {
   position: absolute;
@@ -240,9 +239,8 @@ width: calc((100% - 72px) / 4);
 }
 
 .features-menu {
-display: flex;
-gap: 24px; 
-
+  display: flex;
+  gap: 24px;
 }
 
 .features-title {
@@ -253,8 +251,6 @@ gap: 24px;
   color: #2e2f42;
   margin-bottom: 8px;
 }
-
-
 
 .features-p {
   font-weight: 400;
@@ -269,7 +265,6 @@ gap: 24px;
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
-
 }
 
 .work-title {
@@ -286,10 +281,7 @@ gap: 24px;
 .workers-ul {
   display: flex;
   gap: 24px;
-
 }
-
-
 
 .work-li {
   background-color: #ffffff;
@@ -298,8 +290,8 @@ gap: 24px;
 }
 
 .name-box {
-padding-top: 32px;
-padding-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .name {
   font-weight: 500;
@@ -318,37 +310,32 @@ padding-bottom: 32px;
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-
-
 }
 
 /* ============Portfolio===== */
 
 .portfolio-section {
- padding-top: 120px;
- padding-bottom: 120px;
- margin-bottom: 72px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-bottom: 72px;
 }
 
 .portfolio-ul {
-display: flex;
-flex-wrap: wrap;
-column-gap: 24px; 
-row-gap: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
-
-
 .portfolio-li {
-width: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .banking-box {
-padding: 32px 16px;
-border: 1px solid #e7e9fc; 
-border-top: none; 
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
-
 
 .portfolio-banner {
   font-weight: 700;
