@@ -82,7 +82,7 @@ p {
   padding-bottom: 120px;
 }
 
-/* Header  */
+/* ========================================Header========================  */
 .studio-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -92,7 +92,7 @@ p {
   text-transform: uppercase;
   color: #2e2f42;
 }
-/* блок навигации */
+/* =================================Navigation=========================== */
 .navigation {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -154,6 +154,8 @@ p {
   display: inline-block;
   margin-bottom: 16px;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .adress {
@@ -174,7 +176,7 @@ p {
   color: #404bbf;
 }
 
-/* ----------------Hero --------------------------- */
+/* -------------------------------------------Hero ----------------------------------------- */
 .hero-class {
   background: #2e2f42;
   padding-top: 188px;
@@ -211,11 +213,16 @@ p {
   background-color: #404bbf;
 }
 
-/* -----------------Features ----------------*/
+/* -------------------------------------Features ----------------------------------------*/
 
 .features-section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.features-lishka {
+width: calc((100% - 72px) / 4);
+
 }
 
 
