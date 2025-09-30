@@ -398,9 +398,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-color {
-  padding: 100px 0;
-}
+
 .logo-footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -411,9 +409,4 @@ p {
   display: inline-block;
   text-transform: uppercase;
   margin-bottom: 16px;
-}
-
-.conteiner-footer {
-  display: flex;
-  align-items: baseline;
 }
