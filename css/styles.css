@@ -381,7 +381,7 @@ p {
 }
 
 .footer-text {
-  width: 264px;
+  max-width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -410,6 +410,7 @@ p {
   color: #4d5ae5;
   display: inline-block;
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 .conteiner-footer {
